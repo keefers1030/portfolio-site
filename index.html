@@ -2,6 +2,10 @@
 <html lang="en">
 
 <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description"
@@ -9,42 +13,101 @@
     <meta name="keywords" content="Web developer, Keith March Mistler, HTML, CSS, JavaScript">
     <meta name="author" content="Keith March Mistler">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keith March Mistler</title>
-    <link rel="stylesheet" href="stylesheet.css">
-
-    <link rel="icon" type="image/png"
-        href="http://www.clker.com/cliparts/4/e/0/1/1368302905155480988letter-k-icon-hi.png">
-
+    <title>Keith March Mistler | Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/favicon.ico">
 </head>
 
 <body>
-    <div class="navbar">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
-    </div>
 
-    <div class="parallax"></div>
+    <main class="wrapper">
+        <section class="navbar">
+            <div class="logo" id="logo">
+                <img src='images/logo.png' style="width:50%">
+            </div>
+        </section>
 
-    <div class="home">
-        <h1>Keith March Mistler | Full Stack Developer</h1>
-        <h2>About Me</h2>
-        <img src="https://pbs.twimg.com/profile_images/1332467359571963907/vFHW9ifw_400x400.jpg" alt="Keith headshot"
-            style="width:200px">
-        <p>Hey there, my name is Keith.
-            <br>
-            I am a full stack web developer based in the Greater Boston area. I create innovative websites. Learn more
-            about me or view my portfolio.
-        </p>
-    </div>
-    <div class="socials"></div>
-    <a href="https://github.com/keefers1030">Github</a>
-    <a href="https://www.linkedin.com/in/kmarchmistler/">LinkedIn</a>
-    <a href="https://www.twitter.com/mrmistler">Twitter</a>
-    <a href="https://www.keefersphoto.com">Art Portfolio</a>
-    </div>
-    <div class="parallax"></div>
+        <section class="container1">
+            <div class="bio"></div>
+            <div class="bio1">
+                <h1 class="fancy">Hi! I'm Keith</h1>
+                <script src="app.js">
+                </script>
+                <p>I am a <b>full stack web developer</b> based in the Greater Boston area. I
+                    create
+                    innovative
+                    websites and have fun doing it.
+                </p>
+                <div class="bio"></div>
+                <div class="socials">
+                    <a href="https://www.github.com/keefers1030"><img src="images/github.png" alt="github"
+                            style="width:40px">
+                    </a>
+                    <a href="https://www.linkedin.com/in/kmarchmistler/"><img src="images/linkedin.png" alt="LinkedIn"
+                            style="width:40px">
+                    </a>
+                    <a href="https://www.twitter.com/mrmistler"><img src="images/twitter.png" alt="Twitter"
+                            style="width:40px">
+                    </a>
+                </div>
+                <div class="hireme">
+                    <button class="calltoaction"><a href="#about">about me</a></button>
+                    <button class="calltoaction"><a href="#portfolio">View my Portfolio</a></button>
+                </div>
+                </p>
+            </div>
+        </section>
+
+
+        <section class="projects" id="projects">
+            <ul>
+                <li>
+                    <figure>
+                        <img src="images/placeholder.jpg" alt="placeholder">
+                        <figcaption>
+                            <h3>Project 1</h3>
+                        </figcaption>
+                    </figure>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque voluptatibus sequi
+                        perferendis hic voluptatem fuga, nulla officia eum accusantium expedita.
+                    </p>
+                    <a href="#">Visit Website</a>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/placeholder.jpg" alt="placeholder">
+                        <figcaption>
+                            <h3>Project 2</h3>
+                    </figure>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque voluptatibus sequi
+                        perferendis hic voluptatem fuga, nulla officia eum accusantium expedita.
+                    </p>
+                    <a href="#">Visit Website</a>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/placeholder.jpg" alt="placeholder">
+                        <figcaption>
+                            <h3>Project 3</h3>
+                    </figure>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque voluptatibus sequi
+                        perferendis hic voluptatem fuga, nulla officia eum accusantium expedita.
+                    </p>
+                    <a href="#">Visit Website</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2021 Keith March Mistler</p>
+    </footer>
+    <section class="projects" id="projects">
+        </footer>
 
 </body>
 
