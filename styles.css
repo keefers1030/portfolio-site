@@ -11,21 +11,18 @@
   }
 }
 
-h1 {
-      color:#4d8e92;
-}
-
 body, html {
-    height: 100%;
-    margin: 0;
-    padding:0;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.8em;
-    font-family: 'Montserrat', Helvetica, sans-serif;
-    font-size: 300;
-    color: gray;
-    background-color:#eaf2f3;
+  height: 100%;
+  margin: 0;
+  padding:0;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.8em;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-size: 300;
+  color: gray;
+  background-color: white;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 6%, rgba(234, 242, 243, 1) 64%);
 }
 
 .logo {
@@ -55,16 +52,15 @@ body, html {
   align-items: center;
   padding-top: 0rem;
   border-bottom:7px solid #e8c947;
-
 }
 
 .bio1{
-    flex: 1;
-    order: 1;
+  flex: 1;
+  order: 1;
 }
 
  .bio1 > img {
-  max-height: 100%;
+  max-height: 120%;
   min-width: 100%;
   object-fit: cover;
   vertical-align: bottom;
@@ -75,9 +71,8 @@ body, html {
   order: 2;
   font-size: 2rem;
   line-height: 3rem;
-margin-right: 10%;
-margin-left: 2%;
-}
+  margin-right: 10%;
+  }
 
 .bio2 > h1{
     font-size: 5rem;
@@ -105,12 +100,19 @@ span.fade{
 
 .aboutcontainer {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 35% 65%;
   grid-template-columns: 2;
   align-items: center;
   align-content: center;
-  margin: 2rem;
+  margin: 5rem;
+}
 
+.aboutcontainer img {
+  max-width: 100%;
+  min-width: 40%;
+}
+.aboutwrapper h1{
+  color: #4d8e92;
 }
 
 .projects {
@@ -250,19 +252,23 @@ a{
   display: grid;
   padding: 2rem;
   width: 80%;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 10px;
-  margin:calc(50vh - 220px) auto;
-  box-shadow:0 0 40px -10px rgba(0, 0, 0, .25);
 }
 
-.nicetomeetyou > .box1
-{
+.aboutwrapper h1 {
+  font-size: 32px;
+}
+
+.aboutwrapper p {
+  font-size: 20px;
+  line-height: 2rem;
+}
+
+.nicetomeetyou > .box1 {
   grid-column: 1;
   grid-row: 1;
 }
 
-.nicetomeetyou > .box1 > img {
+.nicetomeetyou .box1 img {
   max-height: 60%;
   min-width: 60%;
   object-fit: cover;
@@ -272,12 +278,6 @@ a{
 {
  grid-column: 2;
   grid-row: 1;
-}
-
-.nicetomeetyou > .hireme
-{
- grid-column: 2;
-  grid-row: 2;
 }
 
 .contact-wrapper{
@@ -309,7 +309,6 @@ a{
   flex-direction: column;
   margin-right: 4%;
   font-family: 'Montserat', Helvetica, sans-serif;
-
 }
 
 .input-fields,
