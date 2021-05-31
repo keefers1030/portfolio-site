@@ -160,12 +160,24 @@ span.fade{
   color: #4d8e92;
 }
 
+.portfolio h1{
+  color: #4d8e92;
+  font-size: 32px;
+  padding-top: 2rem;
+  text-align: center;
+}
+
 .projects {
   min-height: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   align-items: center;
   align-content: center;
+}
+
+.projects .indev {
+  color: #f57380;
+  font-weight: 800;
 }
 
 .bio > * {
@@ -187,7 +199,6 @@ span.fade{
   margin-top: .2rem;
 }
 
-/* projects styles */
 .projects {
   padding: 2rem;
 }
@@ -220,7 +231,7 @@ span.fade{
 .projects > ul > li > figure > figcaption {
   position: absolute;
   bottom: 0;
-  background-color: rgba(232,201,71,.5);
+  background-color:#4d8e92;
   width: 100%;
   z-index: 0;
 }
@@ -249,6 +260,7 @@ button{
   padding: 2%;
   border-radius: 5px;
   text-transform: uppercase;
+  margin: .8rem;
   }
 
 a{
@@ -284,13 +296,13 @@ a{
 }
 
 .hireme {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    gap: 1rem;
-    font-size: 18px;
-    font-weight: 500;
-    font-family: 'Montserrat', Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 1rem;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
 .nicetomeetyou {
@@ -368,7 +380,6 @@ a{
   border: 0px;
   border-bottom: 2px solid #b1c5c7;
   padding: 10px;
-  color: #c5ecfd;
   width: 100%;
   font-family: 'Montserat', Helvetica, sans-serif;
 }
