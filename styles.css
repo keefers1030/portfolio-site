@@ -167,6 +167,10 @@ span.fade{
   text-align: center;
 }
 
+.portfolio{
+  padding-top: 2rem;
+}
+
 .projects {
   min-height: 100%;
   display: grid;
