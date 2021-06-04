@@ -13,13 +13,27 @@
     <meta name="author" content="Keith March Mistler">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keith March Mistler | Web Developer</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="menustyles.css">
     <link rel="icon" type="image/png" href="images/favicon.ico">
 </head>
 
 <body>
     <div class="wrapper">
+        <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox" />
+    <span></span>
+    <span></span>
+    <span></span>
+    <ul id="menu">
+      <a href="#home"><li>Home</li></a>
+      <a href="#about"><li>About</li></a>
+      <a href="#portfolio"><li>Info</li></a>
+      <a href="#contact"><li>Contact</li></a>
+    </ul>
+  </div>
+</nav>
         <section class="navbar">
             <div class="logo" id="logo">
                 <img src='images/logo.png' style="width:40%">
@@ -27,6 +41,7 @@
         </section>
     </div>
 
+    
     <!-- <div class="menu-wrap">
         <input type="checkbox" class="toggler">
         <div class="hamburger">
@@ -48,7 +63,7 @@
 
     <section class="container1" id="home">
         <div class="bio1">
-            <img src="images/Keith.png" alt="Keith the Web Developer" style="width:650px">
+            <img src="images/Keith.png" alt="Keith the Web Developer" style="width:650px" >
         </div>
         <div class="bio2">
             <h1 class="fancy">Hi! I'm Keith</h1>
@@ -81,7 +96,7 @@
 
     <section class="About" id="about">
         <div class="aboutcontainer">
-            <div><img src="images/Keith_Illustration.png" alt="Keith Illustration" style="width:65%"></div>
+            <div class="illustration"><img src="images/Keith_Illustration.png" alt="Keith Illustration" style="width:65%"></div>
             <div class="aboutwrapper">
                 <div class="box2">
                     <h1>Nice to meet you</h1><br/>
@@ -96,7 +111,7 @@
                         over a decade, I taught high school students how to code sites using HTML, CSS, and Javascript
                         while
                         also teaching them
-                        how to utilize innovative design trends using the Adobe Creative Suite. After teaching kids for
+                        how to utilize innovative design trends using the Adobe Creative Suite. After teaching students for
                         11
                         years, I am ready for
                         a change! I am currently seeking a full time role in web development and design. I am open to in-person, remote, or hybrid.</p><br>
@@ -115,10 +130,10 @@
                 <div class="skills2">
                     <img src ="images/designer.png" width="75px" alt="Designer Icon">
                     <h2>Designer</h2> <br/>
-                    <p>As a lifelong designer and artist, I am fluent in both fine and commercial art.</p>
+                    <p>As a lifelong designer and artist, I have a lot of experience working in different media. I started out my career as a graphic and web designer and continued to teach it for a decade.</p>
                     <br/>
                     <h3>Skills</h3>
-                    <p>Adobe Creative Suite, Sketch, Figma, ProCreate</p>
+                    <p>Adobe Creative Cloud, Sketch, Figma, ProCreate</p>
                 </div>
                 <div class="skills3">
                     <img src ="images/educator.png" width="75px" alt="Educator Icon">
@@ -165,7 +180,7 @@
                 <figure>
                     <img src="images/order-book.jpg" alt="Order Book Github">
                     <figcaption>
-                        <h3>Order Book</h3>
+                        <h3>Crypto Order Book</h3>
                 </figure>
                 <p>Order Book is a back-end development project where crypto currency is exchanged.
                 </p>
