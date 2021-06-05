@@ -1,18 +1,12 @@
 body {
   margin: 0;
-  background: white;
-  font-family: "Montserrat", "Helvetica", sans-serif;
+  padding: 0;
+  background: #232323;
+  color: #ddd;
   overflow-x: hidden;
 }
 
-.container1 .logo {
-  width: 200%;
-  height: 200%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.container1 #menu {
+#menu {
   position: absolute;
   width: 300px;
   margin: -100px 0 0 0;
@@ -32,24 +26,24 @@ body {
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
-.container1 #menu a {
+#menu a {
   text-decoration: none;
-  color: #2a5d68;
+  color: #333;
   font-size: 15px;
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
 
-.container1 #menu a:hover {
-  color: #ebce9d;
+#menu a:hover {
+  color: tomato;
 }
 
-.container1 #menu li {
+#menu li {
   padding: 10px 0;
   font-size: 22px;
 }
 
-.container1 #menu_content {
+#menu_content {
   display: block;
   position: absolute;
   top: 50px;
@@ -61,7 +55,7 @@ body {
        user-select: none;
 }
 
-.container1 #menu_content input {
+#menu_content input {
   display: block;
   width: 40px;
   height: 32px;
@@ -70,17 +64,19 @@ body {
   left: -5px;
   cursor: pointer;
   opacity: 0;
+  /* hide this */
   z-index: 2;
+  /* and place it over the hamburger */
   -webkit-touch-callout: none;
 }
 
-.container1 #menu_content span {
+#menu_content span {
   display: block;
   width: 33px;
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: #8c8c8c;
+  background: #cdcdcd;
   border-radius: 3px;
   z-index: 1;
   -webkit-transform-origin: 4px 0px;
@@ -91,85 +87,37 @@ body {
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
-.container1 #menu_content span:first-child {
+#menu_content span:first-child {
   -webkit-transform-origin: 0% 0%;
           transform-origin: 0% 0%;
 }
 
-.container1 #menu_content span:nth-last-child(2) {
+#menu_content span:nth-last-child(2) {
   -webkit-transform-origin: 0% 100%;
           transform-origin: 0% 100%;
 }
 
-.container1 #menu_content input:checked ~ span {
+#menu_content input:checked ~ span {
   opacity: 1;
   -webkit-transform: rotate(45deg) translate(-2px, -1px);
           transform: rotate(45deg) translate(-2px, -1px);
-  background: #2a5d68;
+  background: #232323;
 }
 
-.container1 #menu_content input:checked ~ span:nth-last-child(3) {
+#menu_content input:checked ~ span:nth-last-child(3) {
   opacity: 0;
   -webkit-transform: rotate(0deg) scale(0.2, 0.2);
           transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-.container1 #menu_content input:checked ~ span:nth-last-child(2) {
+#menu_content input:checked ~ span:nth-last-child(2) {
   -webkit-transform: rotate(-45deg) translate(0, -1px);
           transform: rotate(-45deg) translate(0, -1px);
 }
 
-.container1 #menu_content input:checked ~ ul {
+#menu_content input:checked ~ ul {
   -webkit-transform: scale(1, 1);
           transform: scale(1, 1);
   opacity: 1;
 }
-
-.container2 {
-  margin-left: 5rem;
-  display: -ms-grid;
-  display: grid;
-  grid-gap: .5rem;
-  -ms-grid-columns: (minmax(500px, 600px))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(500px, 600px));
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.container2 .bio1 {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 1.8em;
-}
-
-.container2 img {
-  width: 50%;
-}
-
-.container2 .bio2 span {
-  opacity: 0;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
-}
-
-.container2 .bio2 span.fade {
-  opacity: 1;
-}
-
-.container2 .bio2 h1 {
-  font-size: 5rem;
-  color: #4d8e92;
-  font-weight: 300;
-  line-height: normal;
-  position: relative;
-  letter-spacing: .15rem;
-}
-
-.container2 .bio2 p {
-  font-size: 2rem;
-  font-weight: 300;
-  line-height: 1.8em;
-  color: #8c8c8c;
-}
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=test.css.map */
