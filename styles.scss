@@ -1,12 +1,12 @@
 $primarycolor: #2a5d68;
 $secondarycolor: #ebce9d;
 $tertiarycolor: #c4d6d8;
+$tertiarycolor2: #e47c80;
 $yellow2: #ead379;
 $font: 'Montserrat',
 'Helvetica',
 sans-serif;
 $grey: #8c8c8c;
-$tertiarycolor2: #e47c80;
 
 body {
   margin: 0;
@@ -152,7 +152,7 @@ h1 {
   align-items: top;
   justify-content: left;
   margin-bottom: 2rem;
-  border-bottom: 50px solid $tertiarycolor;
+  border-bottom: 75px solid $tertiarycolor;
 
   .bio1 {
     font-size: 16px;
@@ -237,8 +237,9 @@ p {
 }
 
 .container3 {
-
+  
   .aboutcontainer {
+ 
     .aboutwrapper {
 
       .box2 {
@@ -259,16 +260,23 @@ p {
   }
 }
 
-
-
 .skillscontainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: top;
-  margin: auto;
-  margin-bottom: 2rem;
   max-width: 80%;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  // border: 2px solid $primarycolor;
+  margin-top: 0 !important;
+  margin: calc(50vh - 220px) auto;
+  // box-shadow: 0 0 40px -10px rgba(0, 0, 0, .25);
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom,
+      $secondarycolor,
+      #f8e9d0) 1 100%;
 
   p {
     font-size: 16px;
@@ -302,13 +310,19 @@ p {
 }
 
 .portfolio {
+  max-width: 80%;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  margin: calc(50vh - 220px) auto;
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, .25);
+
   .container4 {
 
     h1 {
       color: #4d8e92;
       font-size: 32px;
       padding-top: 2rem;
-      padding-left: 7rem;
+      padding-left: 3rem;
       text-align: left;
     }
 
@@ -316,7 +330,7 @@ p {
       width: 5rem;
       border: 3px solid $yellow2;
       margin: -20px 0px 0px 0px;
-      margin-left: 7rem;
+      margin-left: 3rem;
     }
   }
 
@@ -328,7 +342,7 @@ p {
     padding: 2rem;
 
     img {
-      max-width: 350px;
+      max-width: 100%;
     }
   }
 
@@ -436,11 +450,17 @@ a:visited {
 }
 
 .contact {
+  max-width: 80%;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  margin: calc(50vh - 220px) auto;
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, .25);
+
   h1 {
     color: #4d8e92;
     font-size: 32px;
     padding-top: 2rem;
-    padding-left: 7rem;
+    padding-left: 3rem;
     text-align: left;
   }
 
@@ -448,7 +468,7 @@ a:visited {
     width: 5rem;
     border: 3px solid $yellow2;
     margin: -20px 0px 0px 0px;
-    margin-left: 7rem;
+    margin-left: 3rem;
   }
 
   .container5 {
@@ -468,62 +488,62 @@ a:visited {
   }
 }
 
-  .contact-form {
-    display: flex;
-  }
+.contact-form {
+  display: flex;
+}
 
-  .input-fields {
-    display: flex;
-    flex-direction: column;
-    margin-right: 4%;
-    font-family: 'Montserat', Helvetica, sans-serif;
-  }
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+  font-family: 'Montserat', Helvetica, sans-serif;
+}
 
-  .input-fields,
-  .msg {
-    width: 48%;
-  }
+.input-fields,
+.msg {
+  width: 48%;
+}
 
-  .input-fields .input,
-  .msg textarea {
-    margin: 10px 0;
-    background: transparent;
-    border: 0px;
-    border-bottom: 2px solid #b1c5c7;
-    padding: 10px;
-    width: 100%;
-    font-family: 'Montserat', Helvetica, sans-serif;
-  }
+.input-fields .input,
+.msg textarea {
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid #b1c5c7;
+  padding: 10px;
+  width: 100%;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+}
 
-  .msg textarea {
-    height: 212px;
-  }
+.msg textarea {
+  height: 212px;
+}
 
-  .btn {
-    background: #b1c5c7;
-    text-align: center;
-    padding: 15px;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-    text-transform: uppercase;
-  }
+.btn {
+  background: #b1c5c7;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
 
-  .footer-container {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    grid-column: auto;
-  }
+.footer-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-column: auto;
+}
 
-  footer {
-    background-color: $tertiarycolor;
-    padding: .75rem;
-    font-size: 1rem;
-    height: 8rem;
-    width: 100%;
+footer {
+  background-color: $tertiarycolor;
+  padding: .75rem;
+  font-size: 1rem;
+  height: 8rem;
+  width: 100%;
 
-    p {
-      color: white;
-    }
+  p {
+    color: white;
   }
+}
