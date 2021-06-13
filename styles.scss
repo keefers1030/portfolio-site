@@ -55,12 +55,13 @@ h1 {
 
     a {
       text-decoration: none;
-      color: $primarycolor;
+      color: #4d8e92;
       font-size: 15px;
       transition: color 0.3s ease;
 
       &:hover {
-        color: $tertiarycolor2;
+        color: $primarycolor;
+
       }
     }
 
@@ -194,26 +195,28 @@ h1 {
       padding-left: 0;
     }
 
-    button {
-      background: $primarycolor;
+    a,
+    a:visited {
+      background: #4d8e92;
       border: none;
       padding: 2%;
       border-radius: 5px;
-      text-transform: uppercase;
       margin-left: 0;
+      display: inline-block;
+      font-size: 16px;
+      font-weight: 300;
+    }
+
+    a:active,
+    a:hover {
+      background: $primarycolor;
+
     }
   }
-
-  a,
-  a:visited {
-    color: white;
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-decoration: none;
-  }
 }
+
+
+
 
 p {
   font-family: $font;
@@ -237,9 +240,9 @@ p {
 }
 
 .container3 {
-  
+
   .aboutcontainer {
- 
+
     .aboutwrapper {
 
       .box2 {
@@ -272,9 +275,9 @@ p {
   margin-top: 0 !important;
   margin: calc(50vh - 220px) auto;
   // box-shadow: 0 0 40px -10px rgba(0, 0, 0, .25);
-    border-width: 3px;
-    border-style: solid;
-    border-image: linear-gradient(to bottom,
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom,
       $secondarycolor,
       #f8e9d0) 1 100%;
 
@@ -317,6 +320,15 @@ p {
   box-shadow: 0 0 40px -10px rgba(0, 0, 0, .25);
 
   .container4 {
+    h3 {
+      color: #4d8e92;
+    }
+
+    .indev {
+      color: $tertiarycolor2;
+      font-weight: 400;
+      font-style: italic;
+    }
 
     h1 {
       color: #4d8e92;
@@ -341,20 +353,37 @@ p {
     align-items: flex-start;
     padding: 2rem;
 
+    a,
+    a:visited {
+      background: #4d8e92;
+      border: none;
+      padding: 2%;
+      border-radius: 5px;
+      display: inline-block;
+      font-size: 16px;
+      font-weight: 300;
+    }
+
+    a:active,
+    a:hover {
+      background: $primarycolor;
+    }
+
     img {
       max-width: 100%;
     }
   }
-
-  .project1,
-  .project2,
-  .project3 {
-    padding-left: 1rem;
-    max-width: 300px;
-    text-align: left;
-    margin: 2rem auto auto auto;
-  }
 }
+
+.project1,
+.project2,
+.project3 {
+  padding-left: 1rem;
+  max-width: 300px;
+  text-align: left;
+  margin: 2rem auto auto auto;
+}
+
 
 
 

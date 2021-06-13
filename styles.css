@@ -48,14 +48,14 @@ h1 {
 
 .container1 #menu a {
   text-decoration: none;
-  color: #2a5d68;
+  color: #4d8e92;
   font-size: 15px;
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
 
 .container1 #menu a:hover {
-  color: #e47c80;
+  color: #2a5d68;
 }
 
 .container1 #menu li {
@@ -195,23 +195,21 @@ h1 {
   padding-left: 0;
 }
 
-.container2 .bio2 button {
-  background: #2a5d68;
+.container2 .bio2 a,
+.container2 .bio2 a:visited {
+  background: #4d8e92;
   border: none;
   padding: 2%;
   border-radius: 5px;
-  text-transform: uppercase;
   margin-left: 0;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 300;
 }
 
-.container2 a,
-.container2 a:visited {
-  color: white;
-  text-decoration: none;
-}
-
-.container2 a:hover {
-  text-decoration: none;
+.container2 .bio2 a:active,
+.container2 .bio2 a:hover {
+  background: #2a5d68;
 }
 
 p {
@@ -312,6 +310,16 @@ p {
           box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
 }
 
+.portfolio .container4 h3 {
+  color: #4d8e92;
+}
+
+.portfolio .container4 .indev {
+  color: #e47c80;
+  font-weight: 400;
+  font-style: italic;
+}
+
 .portfolio .container4 h1 {
   color: #4d8e92;
   font-size: 32px;
@@ -342,13 +350,29 @@ p {
   padding: 2rem;
 }
 
+.portfolio .projects a,
+.portfolio .projects a:visited {
+  background: #4d8e92;
+  border: none;
+  padding: 2%;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.portfolio .projects a:active,
+.portfolio .projects a:hover {
+  background: #2a5d68;
+}
+
 .portfolio .projects img {
   max-width: 100%;
 }
 
-.portfolio .project1,
-.portfolio .project2,
-.portfolio .project3 {
+.project1,
+.project2,
+.project3 {
   padding-left: 1rem;
   max-width: 300px;
   text-align: left;
