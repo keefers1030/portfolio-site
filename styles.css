@@ -2,8 +2,21 @@ body {
   margin: 0;
   font-family: "Montserrat", "Helvetica", sans-serif;
   overflow-x: hidden;
-  background: -webkit-gradient(linear, left top, right top, color-stop(6%, white), color-stop(64%, #eaf2f3));
-  background: linear-gradient(90deg, white 6%, #eaf2f3 64%);
+}
+
+h1 {
+  font-size: 5rem;
+  color: #4d8e92;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  letter-spacing: .15rem;
+}
+
+.container1 hr {
+  width: 5rem;
+  border: 3px solid #ead379;
+  margin: -40px 0px 0px 0px;
 }
 
 .container1 .logo {
@@ -42,7 +55,7 @@ body {
 }
 
 .container1 #menu a:hover {
-  color: #ebce9d;
+  color: #e47c80;
 }
 
 .container1 #menu li {
@@ -140,7 +153,7 @@ body {
       -ms-flex-pack: left;
           justify-content: left;
   margin-bottom: 2rem;
-  border-bottom: 100px solid #c4d6d8;
+  border-bottom: 50px solid #c4d6d8;
 }
 
 .container2 .bio1 {
@@ -171,22 +184,24 @@ body {
   line-height: normal;
   position: relative;
   letter-spacing: .15rem;
+  padding-left: 0;
 }
 
 .container2 .bio2 p {
   font-size: 2rem;
   font-weight: 300;
-  line-height: 1.8em;
+  line-height: 1.5em;
   color: #8c8c8c;
+  padding-left: 0;
 }
 
-.container2 button {
+.container2 .bio2 button {
   background: #2a5d68;
   border: none;
   padding: 2%;
   border-radius: 5px;
   text-transform: uppercase;
-  margin: .8rem;
+  margin-left: 0;
 }
 
 .container2 a,
@@ -196,7 +211,6 @@ body {
 }
 
 .container2 a:hover {
-  background-color: #e47c80;
   text-decoration: none;
 }
 
@@ -225,8 +239,16 @@ p {
   min-width: 20%;
 }
 
-.container3 {
-  border-bottom: 100px solid #c4d6d8;
+.container3 .aboutcontainer .aboutwrapper .box2 .underbar hr {
+  width: 5rem;
+  border: 3px solid #ead379;
+  margin: -20px 0px 0px 0px;
+}
+
+.container3 .aboutcontainer .aboutwrapper .box2 h1 {
+  color: #4d8e92;
+  font-size: 32px;
+  text-align: left;
 }
 
 .skillscontainer {
@@ -241,7 +263,9 @@ p {
   -webkit-box-align: top;
       -ms-flex-align: top;
           align-items: top;
-  padding-bottom: 3rem;
+  margin: auto;
+  margin-bottom: 2rem;
+  max-width: 80%;
 }
 
 .skillscontainer p {
@@ -258,11 +282,10 @@ p {
   color: #4d8e92;
 }
 
-.skills1,
-.skills2,
-.skills3 {
+.skillscontainer .skills1,
+.skillscontainer .skills2,
+.skillscontainer .skills3 {
   padding: 1rem;
-  border-radius: 8px;
   margin: auto;
   /* border: solid rgba(34, 34, 34, 0.1) 3px; */
   max-width: 300px;
@@ -273,109 +296,47 @@ p {
   color: #4d8e92;
 }
 
-.portfolio h1 {
+.portfolio .container4 h1 {
   color: #4d8e92;
   font-size: 32px;
   padding-top: 2rem;
-  text-align: center;
+  padding-left: 7rem;
+  text-align: left;
 }
 
-.portfolio {
-  padding-top: 2rem;
+.portfolio .container4 hr {
+  width: 5rem;
+  border: 3px solid #ead379;
+  margin: -20px 0px 0px 0px;
+  margin-left: 7rem;
 }
 
-.projects {
-  min-height: 100%;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(240px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-
-.projects .indev {
-  color: #f57380;
-  font-weight: 800;
-}
-
-.bio > * {
-  color: white;
-}
-
-.bio > h1 {
-  font-size: 4rem;
-  padding-bottom: 1rem;
-}
-
-.bio > article > p {
-  font-size: 1.5rem;
-  font-weight: 200;
-}
-
-.bio > article > a {
-  padding: 1rem;
-  margin-top: .2rem;
-}
-
-.projects {
+.portfolio .projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   padding: 2rem;
 }
 
-.projects > ul {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(320px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 1rem;
+.portfolio .projects img {
+  max-width: 350px;
 }
 
-.projects > ul > li {
-  border: 1px solid #E2E2E2;
-  border-radius: .5rem;
-  list-style-type: none;
-}
-
-.projects > ul > li > figure {
-  max-height: 220px;
-  overflow: hidden;
-  border-top-left-radius: .5rem;
-  border-top-right-radius: .5rem;
-  position: relative;
-  list-style-type: none;
-}
-
-.projects > ul > li > figure > img {
-  width: 100%;
-}
-
-.projects > ul > li > figure > figcaption {
-  position: absolute;
-  bottom: 0;
-  background-color: #4d8e92;
-  width: 100%;
-  z-index: 0;
-}
-
-.projects > ul > li > figure > figcaption > h3 {
-  color: white;
-  padding: .75rem;
-  font-size: 1.25rem;
-}
-
-.projects > ul > li > p {
-  font-size: 1rem;
-  line-height: 1.5;
-  padding: 1rem .75rem;
-  color: #666666;
-}
-
-.projects > ul > li > a {
-  padding: .5rem 1rem;
-  margin: .5rem;
+.portfolio .project1,
+.portfolio .project2,
+.portfolio .project3 {
+  padding-left: 1rem;
+  max-width: 300px;
+  text-align: left;
+  margin: 2rem auto auto auto;
 }
 
 button {
@@ -406,7 +367,7 @@ a:visited {
 
 #navbar a:link,
 a:visited {
-  background-color: #e8c947;
+  background-color: #ead379;
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -456,7 +417,12 @@ a:visited {
 }
 
 .aboutwrapper h1 {
-  font-size: 32px;
+  font-size: 5rem;
+  color: #4d8e92;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  letter-spacing: .15rem;
 }
 
 .aboutwrapper p {
@@ -485,7 +451,22 @@ a:visited {
   grid-row: 1;
 }
 
-.contact-wrapper {
+.contact h1 {
+  color: #4d8e92;
+  font-size: 32px;
+  padding-top: 2rem;
+  padding-left: 7rem;
+  text-align: left;
+}
+
+.contact hr {
+  width: 5rem;
+  border: 3px solid #ead379;
+  margin: -20px 0px 0px 0px;
+  margin-left: 7rem;
+}
+
+.contact .container5 {
   display: -ms-grid;
   display: grid;
   padding: 2rem;
@@ -496,15 +477,10 @@ a:visited {
   -webkit-box-align: left;
       -ms-flex-align: left;
           align-items: left;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 10px;
-  margin: calc(50vh - 220px) auto;
-  -webkit-box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-          box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-  font-family: 'Montserrat', Helvetica, sans-serif;
+  margin: auto;
 }
 
-.contact-wrapper .title {
+.contact .title {
   text-align: center;
   margin-bottom: 25px;
   font-family: 'Montserrat', Helvetica, sans-serif;
