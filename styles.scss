@@ -50,6 +50,7 @@ h1 {
     -webkit-font-smoothing: antialiased;
     transform-origin: 0% 0%;
     transform: translate(100%, 0);
+    overflow: hidden;
 
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
 
@@ -73,7 +74,7 @@ h1 {
 
   #menu_content {
     display: block;
-    position: absolute;
+    position: fixed;
     top: 50px;
     right: 50px;
     z-index: 1;
