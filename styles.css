@@ -243,16 +243,56 @@ p {
   min-width: 20%;
 }
 
-.container3 .aboutcontainer .aboutwrapper .box2 .underbar hr {
+.container3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 80%;
+  margin: calc(50vh - 220px) auto;
+  margin-bottom: 2rem !important;
+}
+
+.container3 .box1 {
+  padding: 1rem;
+  margin: auto;
+  max-width: 400px;
+}
+
+.container3 .box1 img {
+  width: 80%;
+}
+
+.container3 .box2 {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  min-width: 250px;
+}
+
+.container3 .box2 .underbar hr {
   width: 5rem;
   border: 3px solid #ead379;
   margin: -20px 0px 0px 0px;
 }
 
-.container3 .aboutcontainer .aboutwrapper .box2 h1 {
+.container3 .box2 h1 {
   color: #4d8e92;
   font-size: 32px;
   text-align: left;
+}
+
+.container3 .box2 p {
+  font-size: 20px;
+  line-height: 2rem;
 }
 
 .skillscontainer {
@@ -280,7 +320,7 @@ p {
 }
 
 .skillscontainer p {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .skillscontainer h2 {
@@ -301,10 +341,6 @@ p {
   /* border: solid rgba(34, 34, 34, 0.1) 3px; */
   max-width: 300px;
   text-align: center;
-}
-
-.aboutwrapper h1 {
-  color: #4d8e92;
 }
 
 .portfolio {
@@ -460,41 +496,6 @@ a:visited {
   padding: 2rem;
   width: 80%;
   background-color: #8c8c8c;
-}
-
-.aboutwrapper h1 {
-  font-size: 5rem;
-  color: #4d8e92;
-  font-weight: 500;
-  line-height: normal;
-  position: relative;
-  letter-spacing: .15rem;
-}
-
-.aboutwrapper p {
-  font-size: 20px;
-  line-height: 2rem;
-}
-
-.nicetomeetyou > .box1 {
-  -ms-grid-column: 1;
-  grid-column: 1;
-  -ms-grid-row: 1;
-  grid-row: 1;
-}
-
-.nicetomeetyou .box1 img {
-  max-height: 60%;
-  min-width: 60%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.nicetomeetyou > .box2 {
-  -ms-grid-column: 2;
-  grid-column: 2;
-  -ms-grid-row: 1;
-  grid-row: 1;
 }
 
 .contact {

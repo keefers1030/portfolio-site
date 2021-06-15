@@ -12,9 +12,10 @@ body {
   margin: 0;
   font-family: $font;
   overflow-x: hidden;
-  a:visited{
+
+  a:visited {
     text-decoration: none;
-    color:white;
+    color: white;
   }
 }
 
@@ -245,24 +246,43 @@ p {
 
 .container3 {
 
-  .aboutcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  max-width: 80%;
+  margin: calc(50vh - 220px) auto;
+  margin-bottom: 2rem !important;
 
-    .aboutwrapper {
+  .box1 {
+    padding: 1rem;
+    margin: auto;
+    max-width: 400px;
 
-      .box2 {
+    img {
+      width: 80%;
+    }
+  }
 
-        .underbar hr {
-          width: 5rem;
-          border: 3px solid $yellow2;
-          margin: -20px 0px 0px 0px;
-        }
+  .box2 {
+    flex: 2;
+    min-width: 250px;
 
-        h1 {
-          color: #4d8e92;
-          font-size: 32px;
-          text-align: left;
-        }
-      }
+    .underbar hr {
+      width: 5rem;
+      border: 3px solid $yellow2;
+      margin: -20px 0px 0px 0px;
+    }
+
+    h1 {
+      color: #4d8e92;
+      font-size: 32px;
+      text-align: left;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 2rem;
     }
   }
 }
@@ -275,7 +295,6 @@ p {
   max-width: 80%;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
-  // border: 2px solid $primarycolor;
   margin-top: 0 !important;
   margin: calc(50vh - 220px) auto;
   // box-shadow: 0 0 40px -10px rgba(0, 0, 0, .25);
@@ -286,7 +305,7 @@ p {
       #f8e9d0) 1 100%;
 
   p {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   h2 {
@@ -309,11 +328,6 @@ p {
     max-width: 300px;
     text-align: center;
   }
-}
-
-
-.aboutwrapper h1 {
-  color: #4d8e92;
 }
 
 .portfolio {
@@ -452,35 +466,6 @@ a:visited {
   background-color: $grey;
 }
 
-.aboutwrapper h1 {
-  font-size: 5rem;
-  color: #4d8e92;
-  font-weight: 500;
-  line-height: normal;
-  position: relative;
-  letter-spacing: .15rem;
-}
-
-.aboutwrapper p {
-  font-size: 20px;
-  line-height: 2rem;
-}
-
-.nicetomeetyou>.box1 {
-  grid-column: 1;
-  grid-row: 1;
-}
-
-.nicetomeetyou .box1 img {
-  max-height: 60%;
-  min-width: 60%;
-  object-fit: cover;
-}
-
-.nicetomeetyou>.box2 {
-  grid-column: 2;
-  grid-row: 1;
-}
 
 .contact {
   max-width: 80%;
