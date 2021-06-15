@@ -29,6 +29,7 @@ h1 {
   height: 175%;
   -o-object-fit: cover;
      object-fit: cover;
+  min-width: 100%;
 }
 
 .container1 #menu {
