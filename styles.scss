@@ -12,7 +12,10 @@ body {
   margin: 0;
   font-family: $font;
   overflow-x: hidden;
-
+  a:visited{
+    text-decoration: none;
+    color:white;
+  }
 }
 
 h1 {

@@ -4,6 +4,11 @@ body {
   overflow-x: hidden;
 }
 
+body a:visited {
+  text-decoration: none;
+  color: white;
+}
+
 h1 {
   font-size: 5rem;
   color: #4d8e92;
