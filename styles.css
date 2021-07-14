@@ -212,6 +212,7 @@ h1 {
   display: inline-block;
   font-size: 16px;
   font-weight: 300;
+  color: #fff;
 }
 
 .container2 .bio2 a:active,
@@ -415,7 +416,9 @@ p {
 
 .project1,
 .project2,
-.project3 {
+.project3,
+.project4,
+.project5 {
   padding-left: 1rem;
   max-width: 300px;
   text-align: left;
