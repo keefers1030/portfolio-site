@@ -8,6 +8,12 @@ $font: 'Montserrat',
 sans-serif;
 $grey: #8c8c8c;
 
+@media screen and (max-width: 1200px) {
+  .bio1 img{
+    margin-bottom: -300px;
+  }
+}
+
 body {
   margin: 0;
   font-family: $font;
@@ -153,15 +159,14 @@ h1 {
 }
 
 .container2 {
-  margin-top: -2rem;
   display: grid;
   grid-gap: .2rem;
   grid-template-columns: repeat(auto-fit, minmax(100px, 600px));
-  align-items: top;
+  align-items: flex-start;
+  align-content: flex-start;
   justify-content: left;
-  margin-bottom: 2rem;
+  // margin-bottom: 2rem;
   // border-bottom: 75px solid $tertiarycolor;
-  margin: auto;
 
   .bio1 {
     font-size: 16px;
@@ -170,11 +175,13 @@ h1 {
   }
 
   img {
-    width: 100%;
-    vertical-align: bottom;
+    width: 110%;
+    // margin-bottom: -6rem;
   }
 
   .bio2 {
+    margin-left: 2rem;
+
     span {
       opacity: 0;
       transition: all 1s ease;
@@ -191,8 +198,6 @@ h1 {
       line-height: normal;
       position: relative;
       letter-spacing: .15rem;
-      padding-left: 0;
-
     }
 
     p {
@@ -209,8 +214,6 @@ h1 {
       justify-content: left;
       gap: 1rem;
       margin-top: 2rem;
-
-
     }
 
     .hireme {

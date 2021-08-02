@@ -1,3 +1,9 @@
+@media screen and (max-width: 1200px) {
+  .bio1 img {
+    margin-bottom: -300px;
+  }
+}
+
 body {
   margin: 0;
   font-family: "Montserrat", "Helvetica", sans-serif;
@@ -147,20 +153,19 @@ h1 {
 }
 
 .container2 {
-  margin-top: -2rem;
   display: -ms-grid;
   display: grid;
   grid-gap: .2rem;
   -ms-grid-columns: (minmax(100px, 600px))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(100px, 600px));
-  -webkit-box-align: top;
-      -ms-flex-align: top;
-          align-items: top;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
-  margin-bottom: 2rem;
-  margin: auto;
 }
 
 .container2 .bio1 {
@@ -170,8 +175,11 @@ h1 {
 }
 
 .container2 img {
-  width: 100%;
-  vertical-align: bottom;
+  width: 110%;
+}
+
+.container2 .bio2 {
+  margin-left: 2rem;
 }
 
 .container2 .bio2 span {
@@ -191,7 +199,6 @@ h1 {
   line-height: normal;
   position: relative;
   letter-spacing: .15rem;
-  padding-left: 0;
 }
 
 .container2 .bio2 p {
