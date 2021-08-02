@@ -1,6 +1,6 @@
 @media screen and (max-width: 1200px) {
   .bio1 img {
-    margin-bottom: -300px;
+    margin-bottom: -100px;
   }
 }
 
@@ -235,6 +235,12 @@ h1 {
   font-size: 16px;
   font-weight: 300;
   color: #fff;
+}
+
+.container2 .bio2 .hireme a:active,
+.container2 .bio2 .hireme a:hover {
+  background: #2a5d68;
+  color: white;
 }
 
 p {
@@ -595,6 +601,13 @@ a:visited {
   width: 48%;
 }
 
+.input-fields button:active,
+.input-fields button:hover,
+.msg button:active,
+.msg button:hover {
+  background: #2a5d68;
+}
+
 .input-fields .input,
 .msg textarea {
   margin: 10px 0;
@@ -642,15 +655,5 @@ footer {
 
 footer p {
   color: white;
-}
-
-.btn > a:active,
-a:hover {
-  background: #2a5d68;
-}
-
-button:active,
-button:hover {
-  background-color: #2a5d68;
 }
 /*# sourceMappingURL=styles.css.map */

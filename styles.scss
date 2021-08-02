@@ -9,8 +9,8 @@ sans-serif;
 $grey: #8c8c8c;
 
 @media screen and (max-width: 1200px) {
-  .bio1 img{
-    margin-bottom: -300px;
+  .bio1 img {
+    margin-bottom: -100px;
   }
 }
 
@@ -229,6 +229,12 @@ h1 {
         font-size: 16px;
         font-weight: 300;
         color: #fff;
+      }
+
+      a:active,
+      a:hover {
+        background: $primarycolor;
+        color: white;
       }
     }
   }
@@ -535,6 +541,7 @@ a:visited {
 
 .contact-form {
   display: flex;
+
 }
 
 .input-fields {
@@ -547,6 +554,10 @@ a:visited {
 .input-fields,
 .msg {
   width: 48%;
+  button:active,
+  button:hover {
+    background: $primarycolor;
+  }
 }
 
 .input-fields .input,
@@ -572,7 +583,6 @@ a:visited {
   color: #fff;
   cursor: pointer;
   text-transform: uppercase;
-
 }
 
 .footer-container {
@@ -592,14 +602,4 @@ footer {
   p {
     color: white;
   }
-}
-
-.btn>a:active,
-a:hover {
-  background: $primarycolor;
-}
-
-button:active,
-button:hover {
-  background-color: $primarycolor;
 }
