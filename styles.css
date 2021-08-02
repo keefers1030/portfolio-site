@@ -160,6 +160,7 @@ h1 {
       -ms-flex-pack: left;
           justify-content: left;
   margin-bottom: 2rem;
+  margin: auto;
 }
 
 .container2 .bio1 {
@@ -227,11 +228,6 @@ h1 {
   font-size: 16px;
   font-weight: 300;
   color: #fff;
-}
-
-.container2 .bio2 .hireme a:active,
-.container2 .bio2 .hireme a:hover {
-  background: #2a5d68;
 }
 
 p {
@@ -427,11 +423,13 @@ p {
   display: inline-block;
   font-size: 16px;
   font-weight: 300;
+  color: white;
 }
 
 .portfolio .projects a:active,
 .portfolio .projects a:hover {
   background: #2a5d68;
+  color: white;
 }
 
 .portfolio .projects img {
@@ -606,7 +604,7 @@ a:visited {
 }
 
 .btn {
-  background: #b1c5c7;
+  background: #4d8e92;
   text-align: center;
   padding: 15px;
   border-radius: 5px;
@@ -637,5 +635,15 @@ footer {
 
 footer p {
   color: white;
+}
+
+.btn > a:active,
+a:hover {
+  background: #2a5d68;
+}
+
+button:active,
+button:hover {
+  background-color: #2a5d68;
 }
 /*# sourceMappingURL=styles.css.map */

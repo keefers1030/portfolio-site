@@ -161,6 +161,7 @@ h1 {
   justify-content: left;
   margin-bottom: 2rem;
   // border-bottom: 75px solid $tertiarycolor;
+  margin: auto;
 
   .bio1 {
     font-size: 16px;
@@ -226,11 +227,6 @@ h1 {
         font-weight: 300;
         color: #fff;
       }
-
-      a:active,
-      a:hover {
-        background: $primarycolor;
-      }
     }
   }
 }
@@ -259,9 +255,11 @@ p {
 .hello {
   text-align: center;
   padding-bottom: 2rem;
-    h1 {
+
+  h1 {
     font-weight: 100 !important;
-    }
+  }
+
   .underbar hr {
     width: 5rem;
     border: 3px solid $yellow2;
@@ -406,11 +404,13 @@ p {
       display: inline-block;
       font-size: 16px;
       font-weight: 300;
+      color: white;
     }
 
     a:active,
     a:hover {
       background: $primarycolor;
+      color: white;
     }
 
     img {
@@ -562,13 +562,14 @@ a:visited {
 }
 
 .btn {
-  background: #b1c5c7;
+  background: #4d8e92;
   text-align: center;
   padding: 15px;
   border-radius: 5px;
   color: #fff;
   cursor: pointer;
   text-transform: uppercase;
+
 }
 
 .footer-container {
@@ -588,4 +589,14 @@ footer {
   p {
     color: white;
   }
+}
+
+.btn>a:active,
+a:hover {
+  background: $primarycolor;
+}
+
+button:active,
+button:hover {
+  background-color: $primarycolor;
 }
