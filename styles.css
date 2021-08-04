@@ -335,6 +335,16 @@ p {
   line-height: 2rem;
 }
 
+.container3 .box2 a,
+.container3 .box2 a:visited {
+  color: #4d8e92;
+  font-weight: 500;
+}
+
+.container3 .box2 a:hover {
+  color: #2a5d68;
+}
+
 .skillscontainer {
   display: -webkit-box;
   display: -ms-flexbox;
