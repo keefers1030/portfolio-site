@@ -21,6 +21,11 @@ body h2 {
   text-align: center;
 }
 
+body h3 {
+  color: #4d8e92;
+  font-weight: 300;
+}
+
 h1 {
   font-size: 5rem;
   color: #4d8e92;
@@ -32,7 +37,7 @@ h1 {
 
 .container1 hr {
   width: 5rem;
-  border: 3px solid #ead379;
+  border: 3px solid #eacd9c;
   margin: -40px 0px 0px 0px;
 }
 
@@ -285,7 +290,7 @@ p {
 
 .hello .underbar hr {
   width: 5rem;
-  border: 3px solid #ead379;
+  border: 3px solid #eacd9c;
   margin: -20px 100px 300px 300px;
 }
 
@@ -326,7 +331,7 @@ p {
 
 .container3 .box2 .underbar hr {
   width: 5rem;
-  border: 3px solid #ead379;
+  border: 3px solid #eacd9c;
   margin: -20px 0px 0px 0px;
 }
 
@@ -420,7 +425,7 @@ p {
 
 .portfolio .container4 hr {
   width: 5rem;
-  border: 3px solid #ead379;
+  border: 3px solid #eacd9c;
   margin: -20px 0px 0px 0px;
   margin-left: 3rem;
 }
@@ -470,7 +475,7 @@ p {
 }
 
 button {
-  background: #ead379;
+  background: #eacd9c;
   border: none;
   padding: 2%;
   border-radius: 5px;
@@ -497,7 +502,7 @@ a:visited {
 
 #navbar a:link,
 a:visited {
-  background-color: #ead379;
+  background-color: #eacd9c;
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -565,7 +570,7 @@ a:visited {
 
 .contact hr {
   width: 5rem;
-  border: 3px solid #ead379;
+  border: 3px solid #eacd9c;
   margin: -20px 0px 0px 0px;
   margin-left: 3rem;
 }
@@ -670,11 +675,64 @@ footer p {
   color: white;
 }
 
-.mail a, .mail a:visited {
+.mail a,
+.mail a:visited {
   color: #4d8e92 !important;
 }
 
 .mail a:hover {
   color: #2a5d68;
+}
+
+.case-container .img-case {
+  background: linear-gradient(45deg, #c4d6d8, whitesmoke);
+  margin-top: 1rem;
+}
+
+.case-container .img-case img {
+  max-width: 75%;
+  padding: 2rem 10rem;
+}
+
+.case-container h1 {
+  margin: 0 6rem;
+  color: #4d8e92;
+  text-align: left;
+  font-size: 32px;
+}
+
+.case-container h2 {
+  color: #4d8e92;
+  margin-left: 10rem;
+  text-align: left;
+  font-size: 28px;
+}
+
+.case-container h3 {
+  color: #4d8e92;
+  margin-left: 10rem;
+  text-align: left;
+  font-size: 28px;
+}
+
+.case-container h4 {
+  color: #4d8e92;
+  margin-left: 10rem;
+  text-align: left;
+  font-size: 24px;
+}
+
+.case-container p {
+  margin-left: 10rem;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5em;
+  color: #8c8c8c;
+}
+
+.case-container hr {
+  width: 5rem;
+  border: 3px solid #eacd9c;
+  margin: 0 6rem;
 }
 /*# sourceMappingURL=styles.css.map */
