@@ -456,19 +456,20 @@ p {
 
     .text {
       text-align: center;
+      font-weight: 500;
       padding: 25px;
       border-radius: 5px;
       color: #fff;
       cursor: pointer;
-      text-transform: uppercase;
-      }
+      // text-transform: uppercase;
+    }
 
 
     a,
     a:visited {
       background: #4d8e92;
       border: none;
-      padding: 2%;
+      padding: 1rem;
       border-radius: 5px;
       display: inline-block;
       font-size: 16px;
@@ -486,7 +487,7 @@ p {
       max-width: 100%;
     }
 
-    p{
+    p {
       font-size: 18px;
       font-weight: 300;
       line-height: 1.5em;
@@ -508,9 +509,8 @@ p {
 }
 
 
-
-
-button {
+button,
+.btn {
   background: $yellow2;
   border: none;
   padding: 2%;
@@ -648,15 +648,15 @@ a:visited {
   height: 212px;
 }
 
-.btn {
-  background: #4d8e92;
-  text-align: center;
-  padding: 15px;
-  border-radius: 5px;
-  color: #fff;
-  cursor: pointer;
-  text-transform: uppercase;
-}
+// .btn {
+//   background: #4d8e92;
+//   text-align: center;
+//   padding: 15px;
+//   border-radius: 5px;
+//   color: #fff;
+//   cursor: pointer;
+//   text-transform: uppercase;
+// }
 
 .footer-container {
   display: grid;
@@ -690,20 +690,22 @@ footer {
 }
 
 .case-container {
+  margin-top: -3rem;
 
   .img-case {
     background: linear-gradient(45deg, $tertiarycolor, rgb(245, 245, 245));
     margin-top: 1rem;
     padding: 2rem 10rem;
 
-      img {
-        max-width: 90%;
-        border-radius: 20px !important;
-        box-shadow: 0 0 40px -10px rgba(0, 0, 0, .25);
-        border: 2px solid white;
-        padding: 2rem;
-      }
+    img {
+      max-width: 90%;
+      border-radius: 20px !important;
+      box-shadow: 0 0 40px -10px rgba(0, 0, 0, .25);
+      // border: 2px solid white;
+      // padding: 2rem;
     }
+  }
+
   h1 {
     margin: 0 6rem;
     color: #4d8e92;
@@ -725,17 +727,48 @@ footer {
     font-size: 24px;
   }
 
-    p{
-      margin: 0 10rem;
-      font-size: 18px;
-      font-weight: 300;
-      line-height: 1.5em;
-      color: $grey;
-    }
+  p {
+    margin: 0 10rem;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: $grey;
+  }
+
   hr {
     width: 5rem;
     border: 3px solid $yellow2;
     margin: 0 6rem;
   }
 
+  li {
+    margin: 0 10rem;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: $grey;
+  }
+
+  .button-links{
+    margin: 2rem 10rem;
+
+  a,
+  a:visited {
+    background: #4d8e92;
+    border: none;
+    gap: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+  }
+
+  a:active,
+  a:hover {
+    background: $primarycolor;
+    color: white;
+  }
+}
 }

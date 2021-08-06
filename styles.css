@@ -481,18 +481,18 @@ p {
 
 .portfolio .projects .text {
   text-align: center;
+  font-weight: 500;
   padding: 25px;
   border-radius: 5px;
   color: #fff;
   cursor: pointer;
-  text-transform: uppercase;
 }
 
 .portfolio .projects a,
 .portfolio .projects a:visited {
   background: #4d8e92;
   border: none;
-  padding: 2%;
+  padding: 1rem;
   border-radius: 5px;
   display: inline-block;
   font-size: 16px;
@@ -529,7 +529,8 @@ p {
   margin: 2rem auto auto auto;
 }
 
-button {
+button,
+.btn {
   background: #eacd9c;
   border: none;
   padding: 2%;
@@ -696,16 +697,6 @@ a:visited {
   height: 212px;
 }
 
-.btn {
-  background: #4d8e92;
-  text-align: center;
-  padding: 15px;
-  border-radius: 5px;
-  color: #fff;
-  cursor: pointer;
-  text-transform: uppercase;
-}
-
 .footer-container {
   display: -ms-grid;
   display: grid;
@@ -739,6 +730,10 @@ footer p {
   color: #2a5d68;
 }
 
+.case-container {
+  margin-top: -3rem;
+}
+
 .case-container .img-case {
   background: linear-gradient(45deg, #c4d6d8, whitesmoke);
   margin-top: 1rem;
@@ -750,8 +745,6 @@ footer p {
   border-radius: 20px !important;
   -webkit-box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
           box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-  border: 2px solid white;
-  padding: 2rem;
 }
 
 .case-container h1 {
@@ -787,5 +780,36 @@ footer p {
   width: 5rem;
   border: 3px solid #eacd9c;
   margin: 0 6rem;
+}
+
+.case-container li {
+  margin: 0 10rem;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5em;
+  color: #8c8c8c;
+}
+
+.case-container .button-links {
+  margin: 2rem 10rem;
+}
+
+.case-container .button-links a,
+.case-container .button-links a:visited {
+  background: #4d8e92;
+  border: none;
+  gap: 2rem;
+  padding: 1rem;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+}
+
+.case-container .button-links a:active,
+.case-container .button-links a:hover {
+  background: #2a5d68;
+  color: white;
 }
 /*# sourceMappingURL=styles.css.map */
