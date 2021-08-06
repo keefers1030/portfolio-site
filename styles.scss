@@ -423,6 +423,46 @@ p {
     justify-content: center;
     align-items: flex-start;
     padding: 2rem;
+    gap: 3rem;
+    position: relative;
+
+    .image {
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+
+    .middle {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 8%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .projecteach:hover .image {
+      opacity: 0.3;
+    }
+
+    .projecteach:hover .middle {
+      opacity: 1;
+    }
+
+    .text {
+      text-align: center;
+      padding: 25px;
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+      text-transform: uppercase;
+      }
+
 
     a,
     a:visited {
@@ -445,12 +485,24 @@ p {
     img {
       max-width: 100%;
     }
+
+    p{
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.5em;
+      color: $grey;
+    }
+
+    h3 {
+      font-weight: 500;
+      font-size: 28px;
+    }
   }
 }
 
 .projecteach {
   padding-left: 1rem;
-  max-width: 500px;
+  max-width: 800px;
   text-align: left;
   margin: 2rem auto auto auto;
 }
@@ -639,15 +691,17 @@ footer {
 
 .case-container {
 
-  // padding-top: -10rem;
-
   .img-case {
     background: linear-gradient(45deg, $tertiarycolor, rgb(245, 245, 245));
     margin-top: 1rem;
+    padding: 2rem 10rem;
 
       img {
-        max-width: 75%;
-        padding: 2rem 10rem;
+        max-width: 90%;
+        border-radius: 20px !important;
+        box-shadow: 0 0 40px -10px rgba(0, 0, 0, .25);
+        border: 2px solid white;
+        padding: 2rem;
       }
     }
   h1 {
@@ -668,18 +722,11 @@ footer {
     color: #4d8e92;
     margin-left: 10rem;
     text-align: left;
-    font-size: 28px;
+    font-size: 24px;
   }
 
-    h4 {
-      color: #4d8e92;
-      margin-left: 10rem;
-      text-align: left;
-      font-size: 24px;
-    }
-
     p{
-      margin-left: 10rem;
+      margin: 0 10rem;
       font-size: 18px;
       font-weight: 300;
       line-height: 1.5em;
