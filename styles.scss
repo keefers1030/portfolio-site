@@ -691,6 +691,9 @@ footer {
 
 .case-container {
   margin-top: -3rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 
   .img-case {
     background: linear-gradient(45deg, $tertiarycolor, rgb(245, 245, 245));
@@ -749,26 +752,26 @@ footer {
     color: $grey;
   }
 
-  .button-links{
+  .button-links {
     margin: 2rem 10rem;
 
-  a,
-  a:visited {
-    background: #4d8e92;
-    border: none;
-    gap: 2rem;
-    padding: 1rem;
-    border-radius: 5px;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 300;
-    color: white;
-  }
+    a,
+    a:visited {
+      background: #4d8e92;
+      border: none;
+      gap: 2rem;
+      padding: 1rem;
+      border-radius: 5px;
+      display: inline-block;
+      font-size: 16px;
+      font-weight: 300;
+      color: white;
+    }
 
-  a:active,
-  a:hover {
-    background: $primarycolor;
-    color: white;
+    a:active,
+    a:hover {
+      background: $primarycolor;
+      color: white;
+    }
   }
-}
 }
