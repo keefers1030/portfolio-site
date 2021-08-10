@@ -759,45 +759,14 @@ footer p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.case-container img {
-  max-width: 90%;
-  min-width: 300px;
-  border-radius: 20px !important;
-  -webkit-box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-          box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-}
-
-.case-container .img-case {
-  background: linear-gradient(45deg, #c4d6d8, whitesmoke);
-  margin-top: 1rem;
-  padding: 2rem 10rem;
+  min-width: 400px;
 }
 
 .case-container h1 {
+  margin: 0 6rem;
   color: #4d8e92;
   text-align: left;
   font-size: 32px;
-}
-
-.case-container h2 {
-  color: #4d8e92;
-  text-align: left;
-  font-size: 28px;
-}
-
-.case-container h3 {
-  color: #4d8e92;
-  text-align: left;
-  font-size: 24px;
-}
-
-.case-container p {
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 1.5em;
-  color: #8c8c8c;
 }
 
 .case-container hr {
@@ -806,15 +775,67 @@ footer p {
   margin: 0 6rem;
 }
 
-.case-container li {
+.case-container .container-case1 {
+  background: linear-gradient(45deg, #c4d6d8, whitesmoke);
+  margin-top: 1rem;
+  padding: 2rem 10rem;
+}
+
+.case-container .container-case1 img {
+  max-width: 90%;
+  min-width: 300px;
+  border-radius: 20px !important;
+  -webkit-box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+.container-case2 {
+  margin: auto;
+  min-width: 400px;
+  margin-left: 10rem;
+  max-width: 1000px;
+}
+
+.container-case2 img {
+  max-width: 90%;
+  min-width: 300px;
+  border-radius: 20px !important;
+  -webkit-box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+.container-case2 h2 {
+  color: #4d8e92;
+  text-align: left;
+  font-size: 28px;
+}
+
+.container-case2 h3 {
+  color: #4d8e92;
+  text-align: left;
+  font-size: 24px;
+}
+
+.container-case2 p {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.5em;
   color: #8c8c8c;
 }
 
-.case-container .button-links a,
-.case-container .button-links a:visited {
+.container-case2 li {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5em;
+  color: #8c8c8c;
+}
+
+.container-case2 .button-links {
+  margin: 2rem 0rem;
+}
+
+.container-case2 .button-links a,
+.container-case2 .button-links a:visited {
   background: #4d8e92;
   border: none;
   gap: 2rem;
@@ -826,8 +847,8 @@ footer p {
   color: white;
 }
 
-.case-container .button-links a:active,
-.case-container .button-links a:hover {
+.container-case2 .button-links a:active,
+.container-case2 .button-links a:hover {
   background: #2a5d68;
   color: white;
 }
