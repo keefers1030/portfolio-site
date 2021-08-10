@@ -309,7 +309,7 @@ p {
     max-width: 400px;
 
     img {
-      width: 80%;
+      width: 100%;
     }
   }
 
@@ -696,9 +696,12 @@ footer {
 }
 
 .case-container {
+  // margin-top: -3rem;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 
   img {
     max-width: 90%;
@@ -714,7 +717,7 @@ footer {
   }
 
   h1 {
-    margin: 0 6rem;
+    // margin: 0 6rem;
     color: #4d8e92;
     text-align: left;
     font-size: 32px;
@@ -722,20 +725,20 @@ footer {
 
   h2 {
     color: #4d8e92;
-    margin-left: 10rem;
+    // margin-left: 10rem;
     text-align: left;
     font-size: 28px;
   }
 
   h3 {
     color: #4d8e92;
-    margin-left: 10rem;
+    // margin-left: 10rem;
     text-align: left;
     font-size: 24px;
   }
 
   p {
-    margin: 0 10rem;
+    // margin: 0 10rem;
     font-size: 18px;
     font-weight: 300;
     line-height: 1.5em;
@@ -749,7 +752,7 @@ footer {
   }
 
   li {
-    margin: 0 10rem;
+    // margin: 0 10rem;
     font-size: 18px;
     font-weight: 300;
     line-height: 1.5em;
@@ -757,7 +760,7 @@ footer {
   }
 
   .button-links {
-    margin: 2rem 10rem;
+    // margin: 2rem 10rem;
 
     a,
     a:visited {

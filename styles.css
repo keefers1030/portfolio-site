@@ -322,7 +322,7 @@ p {
 }
 
 .container3 .box1 img {
-  width: 80%;
+  width: 100%;
 }
 
 .container3 .box2 {
@@ -747,13 +747,18 @@ footer p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .case-container img {
@@ -771,7 +776,6 @@ footer p {
 }
 
 .case-container h1 {
-  margin: 0 6rem;
   color: #4d8e92;
   text-align: left;
   font-size: 32px;
@@ -779,20 +783,17 @@ footer p {
 
 .case-container h2 {
   color: #4d8e92;
-  margin-left: 10rem;
   text-align: left;
   font-size: 28px;
 }
 
 .case-container h3 {
   color: #4d8e92;
-  margin-left: 10rem;
   text-align: left;
   font-size: 24px;
 }
 
 .case-container p {
-  margin: 0 10rem;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.5em;
@@ -806,15 +807,10 @@ footer p {
 }
 
 .case-container li {
-  margin: 0 10rem;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.5em;
   color: #8c8c8c;
-}
-
-.case-container .button-links {
-  margin: 2rem 10rem;
 }
 
 .case-container .button-links a,
