@@ -697,6 +697,16 @@ a:visited {
   height: 212px;
 }
 
+.btn {
+  background: #4d8e92;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
 .footer-container {
   display: -ms-grid;
   display: grid;
@@ -731,28 +741,32 @@ footer p {
 }
 
 .case-container {
-  margin-top: -3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.case-container img {
+  max-width: 90%;
+  min-width: 300px;
+  border-radius: 20px !important;
+  -webkit-box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
 }
 
 .case-container .img-case {
   background: linear-gradient(45deg, #c4d6d8, whitesmoke);
   margin-top: 1rem;
   padding: 2rem 10rem;
-}
-
-.case-container .img-case img {
-  max-width: 90%;
-  border-radius: 20px !important;
-  -webkit-box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-          box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
 }
 
 .case-container h1 {
