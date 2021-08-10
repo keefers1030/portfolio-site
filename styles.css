@@ -2,8 +2,8 @@
   .bio1 img {
     margin-bottom: -200px;
   }
-  .container1 .logo {
-    min-width: 300px;
+  .container1 img {
+    min-width: 400px;
   }
 }
 
@@ -450,38 +450,6 @@ p {
   position: relative;
 }
 
-.portfolio .projects .image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-}
-
-.portfolio .projects .middle {
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 8%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.portfolio .projects .projecteach:hover .image {
-  opacity: 0.3;
-}
-
-.portfolio .projects .projecteach:hover .middle {
-  opacity: 1;
-}
-
 .portfolio .projects .text {
   text-align: center;
   font-weight: 500;
@@ -802,6 +770,9 @@ footer p {
   border-radius: 20px !important;
   -webkit-box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
           box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .container-case2 h2 {

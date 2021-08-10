@@ -14,8 +14,8 @@ $grey: #8c8c8c;
   }
 
   .container1 {
-    .logo {
-      min-width: 300px;
+    img {
+      min-width: 400px;
     }
   }
 }
@@ -432,33 +432,33 @@ p {
     gap: 3rem;
     position: relative;
 
-    .image {
-      opacity: 1;
-      display: block;
-      width: 100%;
-      height: auto;
-      transition: .5s ease;
-      backface-visibility: hidden;
-    }
+    // .image {
+    //   opacity: 1;
+    //   display: block;
+    //   width: 100%;
+    //   height: auto;
+    //   transition: .5s ease;
+    //   backface-visibility: hidden;
+    // }
 
-    .middle {
-      transition: .5s ease;
-      opacity: 0;
-      position: absolute;
-      top: 8%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      text-align: center;
-    }
+    // .middle {
+    //   transition: .5s ease;
+    //   opacity: 0;
+    //   position: absolute;
+    //   top: 8%;
+    //   left: 50%;
+    //   transform: translate(-50%, -50%);
+    //   -ms-transform: translate(-50%, -50%);
+    //   text-align: center;
+    // }
 
-    .projecteach:hover .image {
-      opacity: 0.3;
-    }
+    // .projecteach:hover .image {
+    //   opacity: 0.3;
+    // }
 
-    .projecteach:hover .middle {
-      opacity: 1;
-    }
+    // .projecteach:hover .middle {
+    //   opacity: 1;
+    // }
 
     .text {
       text-align: center;
@@ -469,7 +469,6 @@ p {
       cursor: pointer;
       // text-transform: uppercase;
     }
-
 
     a,
     a:visited {
@@ -735,14 +734,14 @@ footer {
   margin: auto;
   min-width: 400px;
   margin-left: 10rem;
-    max-width: 1000px;
-
+  max-width: 1000px;
 
   img {
     max-width: 90%;
     min-width: 300px;
     border-radius: 20px !important;
     box-shadow: 0 0 40px -10px rgba(0, 0, 0, .25);
+    align-self: center;
   }
 
   h2 {
