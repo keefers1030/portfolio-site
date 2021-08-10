@@ -12,6 +12,12 @@ $grey: #8c8c8c;
   .bio1 img {
     margin-bottom: -200px;
   }
+
+  .container1{
+    .logo{
+      min-width: 300px;
+    }
+  }
 }
 
 body {
@@ -690,11 +696,9 @@ footer {
 }
 
 .case-container {
-  // margin-top: -3rem;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
   flex-direction: column;
-  align-items: left;
 
   img {
     max-width: 90%;
