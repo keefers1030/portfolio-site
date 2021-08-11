@@ -45,11 +45,12 @@ h1 {
 }
 
 .container1 .logo {
-  width: 175%;
-  height: 175%;
+  width: 160%;
+  height: 160%;
   -o-object-fit: cover;
      object-fit: cover;
   min-width: 100%;
+  margin-bottom: 0;
 }
 
 .container1 #menu {
@@ -712,7 +713,6 @@ footer p {
 }
 
 .case-container {
-  margin-top: -2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -731,65 +731,60 @@ footer p {
           align-items: baseline;
   max-width: 80%;
   margin: calc(50vh - 220px) auto;
-  margin-top: 0 !important;
+  margin-top: -1rem !important;
+  overflow-x: hidden;
 }
 
-.case-container .container-case2 img {
+.case-container .container-case1 img {
   max-width: 100%;
   min-width: 300px;
-  border-radius: 20px !important;
-  -webkit-box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-          box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
 }
 
-.case-container .container-case2 h1 {
+.case-container .container-case1 h1 {
   margin: 0;
   color: #4d8e92;
   text-align: left;
   font-size: 32px;
 }
 
-.case-container .container-case2 hr {
+.case-container .container-case1 hr {
   width: 5rem;
   border: 3px solid #eacd9c;
-  margin: 0;
+  margin: 0 0 1rem;
 }
 
-.case-container .container-case2 h2 {
+.case-container .container-case1 h2 {
   color: #4d8e92;
   text-align: left;
   font-size: 28px;
 }
 
-.case-container .container-case2 h3 {
+.case-container .container-case1 h3 {
   color: #4d8e92;
   text-align: left;
   font-size: 24px;
 }
 
-.case-container .container-case2 p {
+.case-container .container-case1 p {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.5em;
   color: #8c8c8c;
 }
 
-.case-container .container-case2 li {
+.case-container .container-case1 li {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.5em;
   color: #8c8c8c;
 }
 
-.case-container .container-case2 .button-links {
+.case-container .container-case1 .button-links {
   margin: 2rem 0rem;
 }
 
-.case-container .container-case2 .button-links a,
-.case-container .container-case2 .button-links a:visited {
+.case-container .container-case1 .button-links a,
+.case-container .container-case1 .button-links a:visited {
   background: #4d8e92;
   border: none;
   gap: 2rem;
@@ -801,8 +796,8 @@ footer p {
   color: white;
 }
 
-.case-container .container-case2 .button-links a:active,
-.case-container .container-case2 .button-links a:hover {
+.case-container .container-case1 .button-links a:active,
+.case-container .container-case1 .button-links a:hover {
   background: #2a5d68;
   color: white;
 }
