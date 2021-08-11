@@ -712,6 +712,7 @@ footer p {
 }
 
 .case-container {
+  margin-top: -2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -733,37 +734,8 @@ footer p {
   margin-top: 0 !important;
 }
 
-.case-container h1 {
-  margin: 0 6rem;
-  color: #4d8e92;
-  text-align: left;
-  font-size: 32px;
-}
-
-.case-container hr {
-  width: 5rem;
-  border: 3px solid #eacd9c;
-  margin: 0 6rem;
-}
-
-.case-container .container-case1 {
-  margin-top: 1rem;
-  padding: 2rem 10rem;
-}
-
-.case-container .container-case1 img {
-  max-width: 120%;
-}
-
-.container-case2 {
-  margin: auto;
-  min-width: 400px;
-  margin-left: 10rem;
-  max-width: 1000px;
-}
-
-.container-case2 img {
-  max-width: 90%;
+.case-container .container-case2 img {
+  max-width: 100%;
   min-width: 300px;
   border-radius: 20px !important;
   -webkit-box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
@@ -773,38 +745,51 @@ footer p {
       align-self: center;
 }
 
-.container-case2 h2 {
+.case-container .container-case2 h1 {
+  margin: 0;
+  color: #4d8e92;
+  text-align: left;
+  font-size: 32px;
+}
+
+.case-container .container-case2 hr {
+  width: 5rem;
+  border: 3px solid #eacd9c;
+  margin: 0;
+}
+
+.case-container .container-case2 h2 {
   color: #4d8e92;
   text-align: left;
   font-size: 28px;
 }
 
-.container-case2 h3 {
+.case-container .container-case2 h3 {
   color: #4d8e92;
   text-align: left;
   font-size: 24px;
 }
 
-.container-case2 p {
+.case-container .container-case2 p {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.5em;
   color: #8c8c8c;
 }
 
-.container-case2 li {
+.case-container .container-case2 li {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.5em;
   color: #8c8c8c;
 }
 
-.container-case2 .button-links {
+.case-container .container-case2 .button-links {
   margin: 2rem 0rem;
 }
 
-.container-case2 .button-links a,
-.container-case2 .button-links a:visited {
+.case-container .container-case2 .button-links a,
+.case-container .container-case2 .button-links a:visited {
   background: #4d8e92;
   border: none;
   gap: 2rem;
@@ -816,8 +801,8 @@ footer p {
   color: white;
 }
 
-.container-case2 .button-links a:active,
-.container-case2 .button-links a:hover {
+.case-container .container-case2 .button-links a:active,
+.case-container .container-case2 .button-links a:hover {
   background: #2a5d68;
   color: white;
 }
