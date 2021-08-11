@@ -724,13 +724,13 @@ footer p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  min-width: 20%;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
   max-width: 80%;
-  margin-top: 0 !important;
   margin: calc(50vh - 220px) auto;
-  overflow-x: hidden;
+  margin-top: 0 !important;
 }
 
 .case-container h1 {
@@ -747,17 +747,12 @@ footer p {
 }
 
 .case-container .container-case1 {
-  background: linear-gradient(45deg, #c4d6d8, whitesmoke);
   margin-top: 1rem;
   padding: 2rem 10rem;
 }
 
 .case-container .container-case1 img {
-  max-width: 90%;
-  min-width: 300px;
-  border-radius: 20px !important;
-  -webkit-box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-          box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+  max-width: 120%;
 }
 
 .container-case2 {
