@@ -243,7 +243,7 @@ h1 {
         margin-left: 0;
         display: inline-block;
         font-size: 16px;
-        font-weight: 300;
+        font-weight: 500;
         color: #fff;
       }
 
@@ -478,7 +478,7 @@ p {
       border-radius: 5px;
       display: inline-block;
       font-size: 16px;
-      font-weight: 300;
+      font-weight: 500;
       color: white;
     }
 
@@ -700,11 +700,13 @@ footer {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  min-width: 400px;
+  // min-width: 400px;
   align-items: baseline;
   max-width: 80%;
   margin-top: 0 !important;
   margin: calc(50vh - 220px) auto;
+  overflow-x: hidden;
+
 
   h1 {
     margin: 0 6rem;
@@ -789,7 +791,7 @@ footer {
       border-radius: 5px;
       display: inline-block;
       font-size: 16px;
-      font-weight: 300;
+      font-weight: 500;
       color: white;
     }
 

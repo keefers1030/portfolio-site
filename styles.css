@@ -247,7 +247,7 @@ h1 {
   margin-left: 0;
   display: inline-block;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 500;
   color: #fff;
 }
 
@@ -467,7 +467,7 @@ p {
   border-radius: 5px;
   display: inline-block;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 500;
   color: white;
 }
 
@@ -724,13 +724,13 @@ footer p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-width: 400px;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
   max-width: 80%;
   margin-top: 0 !important;
   margin: calc(50vh - 220px) auto;
+  overflow-x: hidden;
 }
 
 .case-container h1 {
@@ -817,7 +817,7 @@ footer p {
   border-radius: 5px;
   display: inline-block;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 500;
   color: white;
 }
 
