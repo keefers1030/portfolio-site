@@ -318,7 +318,7 @@ p {
     flex: 2;
     min-width: 250px;
 
-    .underbar hr {
+    .hr {
       width: 5rem;
       border: 3px solid $yellow2;
       margin: -20px 0px 0px 0px;
@@ -711,7 +711,7 @@ footer {
   margin: calc(50vh - 220px) auto;
   margin-top: -1rem !important;
   overflow-x: hidden;
-  
+
   .container-case1 {
     img {
       max-width: 100%;
@@ -817,11 +817,11 @@ footer {
   }
 }
 
-  .fashion {
-    display: flex;
-    gap: 5px;
-    margin: 1rem;
-    // flex-wrap: wrap;
-    // max-width: 500px;
-    // flex-direction: column;
-  }
+.fashion {
+  display: flex;
+  gap: 5px;
+  margin: 1rem;
+  // flex-wrap: wrap;
+  // max-width: 500px;
+  // flex-direction: column;
+}
