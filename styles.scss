@@ -821,6 +821,7 @@ footer {
     display: flex;
     gap: 5px;
     margin: 1rem;
-    flex-wrap: wrap;
-
+    // flex-wrap: wrap;
+    // max-width: 500px;
+    // flex-direction: column;
   }
