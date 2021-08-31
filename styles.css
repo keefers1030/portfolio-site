@@ -748,6 +748,16 @@ footer p {
   display: block;
 }
 
+.case-container .container-case1 a,
+.case-container .container-case1 a:visited {
+  color: #4d8e92;
+  font-weight: 500;
+}
+
+.case-container .container-case1 a:hover {
+  color: #2a5d68;
+}
+
 .case-container .container-case1 h1 {
   margin: 0;
   color: #4d8e92;
@@ -833,5 +843,15 @@ footer p {
 .case-container .container-case1 .button-links a:hover {
   background: #2a5d68;
   color: white;
+}
+
+.fashion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+  margin: 1rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 /*# sourceMappingURL=styles.css.map */
